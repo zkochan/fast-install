@@ -1,0 +1,27 @@
+{
+  "name": "fast-install",
+  "version": "1.0.0",
+  "description": "Installs npm dependencies. When possible, uses pnpm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/fast-install.git"
+  },
+  "keywords": [
+    "pnpm",
+    "npm",
+    "install"
+  ],
+  "author": "Zoltan Kochan <zoltan.kochan@gmail.com> (http://kochan.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/fast-install/issues"
+  },
+  "homepage": "https://github.com/zkochan/fast-install#readme",
+  "dependencies": {
+    "cross-spawn": "^4.0.0"
+  }
+}
