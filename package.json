@@ -1,6 +1,6 @@
 {
   "name": "fast-install",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Installs npm dependencies. When possible, uses pnpm",
   "main": "index.js",
   "files": [
