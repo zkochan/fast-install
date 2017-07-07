@@ -6,7 +6,11 @@ var spawn = require('cross-spawn')
 function install (opts) {
   opts = opts || {}
   opts.dependencies = opts.dependencies || []
-  return spawn.sync(getInstaller(), ['install', opts.cliOptions || ''].concat(opts.dependencies), {
+  var args = ['install']
+  if (opts.cliOptions) {
+    args.push(opts.cliOptions)
+  }
+  return spawn.sync(getInstaller(), args.concat(opts.dependencies), {
     cwd: opts.cwd,
     stdio: 'inherit',
     env: process.env,
