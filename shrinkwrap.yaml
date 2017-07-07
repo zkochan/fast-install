@@ -1,0 +1,42 @@
+dependencies:
+  cross-spawn: 5.1.0
+packages:
+  /cross-spawn/5.1.0:
+    dependencies:
+      lru-cache: 4.1.1
+      shebang-command: 1.2.0
+      which: 1.2.14
+    resolution:
+      integrity: sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk=
+  /isexe/2.0.0:
+    resolution:
+      integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
+  /lru-cache/4.1.1:
+    dependencies:
+      pseudomap: 1.0.2
+      yallist: 2.1.2
+    resolution:
+      integrity: sha512-q4spe4KTfsAS1SUHLO0wz8Qiyf1+vMIAgpRYioFYDMNqKfHQbg+AVDH3i4fvpl71/P1L0dBl+fQi+P37UYf0ew==
+  /pseudomap/1.0.2:
+    resolution:
+      integrity: sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
+  /shebang-command/1.2.0:
+    dependencies:
+      shebang-regex: 1.0.0
+    resolution:
+      integrity: sha1-RKrGW2lbAzmJaMOfNj/uXer98eo=
+  /shebang-regex/1.0.0:
+    resolution:
+      integrity: sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
+  /which/1.2.14:
+    dependencies:
+      isexe: 2.0.0
+    resolution:
+      integrity: sha1-mofEN48D6CfOyvGs31bHNsAcFOU=
+  /yallist/2.1.2:
+    resolution:
+      integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+registry: 'https://registry.npmjs.org/'
+shrinkwrapVersion: 3
+specifiers:
+  cross-spawn: ^5.1.0
